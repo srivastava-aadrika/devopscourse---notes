@@ -1,0 +1,44 @@
+Redhat Linux notes 
+Red Hat Linux Notes
+
+- [ ] Linux is a community of open-source Unix-like operating systems that are based on the Linux Kernel.
+- [ ] It was initially released by Linus Torvalds on September 17, 1991.
+- [ ] It is a free and open-source operating system and the source code can be modified and distributed to anyone commercially or non commercially under the GNU General Public License. 
+- [ ] Since Linux is too huge it is always put in Linux distribution and then given for use .
+- [ ] Linux distribution is an operating system that is made up of Linux kernel and supporting libraries
+- [ ] Popular linux distributions are. :  Debian, solos, linux mint , deepen
+- [ ] 
+￼
+
+
+- [ ] KERNEL :  Kernel is the core of the linux based operating system.
+
+It virtualises the common hardware resources of the computer to provide each process with its virtual resources.
+This makes the process seem as if it is the sole process running on the machine .
+Different types of the kernel are :
+- [ ] Monolithic kernel 
+- [ ] Hybrid Kernels 
+- [ ] Exo kernel
+- [ ] Micro Kernels 
+
+System Library : Is the special types of functions that are used to implement the functionality of the operating system.
+
+Shell : It is an interface to the kernel which hides the complexity of the Krnel’s functions from the users . It takes commands from the user and executes the Kernel’s functions .
+
+Hardware layer:  This layer consists of all peripheral devices like RAM /HDD/CPU etc.
+
+System Utility : It provides the functionalities of an operating system to the user .
+
+
+Important commands in Linux
+
+1. Listing files and directories  : use ls or ls -a to list all the files 
+2. Making directories : to create directory type mkdir
+3. Changing to a different directory : cd dir2
+4. To see current working directory: root@tryit-fleet:~/dir1# pwd 
+5. Moving files and directories: Move one file to directory mv file1 dir1/
+6. Removing Files and directories: rm tempfile.txt and to delete a directory rm -rf dir1  
+7. Man command  : used to display the user manual of any command that we run on the terminal: man ls 
+ 4 .The directories . and ..
+	To go upwards in a folder structure use cd .. command in the 		      terminal.
+root@tryit-fleet:~/dir1# cd ..
