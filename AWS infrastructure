@@ -1,0 +1,35 @@
+AWS Infrastructure
+
+The components that make up the AWS infrastructure :
+-> Availability zone 
+-> Region
+-> Edge Locations
+-> Regional Edge Caches 
+
+Availability zone as a data centre 
+-> An availability zone is a facility that can be somewhere in a country or in a city.
+-> Inside this facility ,I.e., Data centre , we can have multiple servers, switches, load balancing , firewalls .
+->The things which interact with the cloud sits inside the data centres .
+->An availability Zone cn be a several data centres, but if they are counted as 1 availability zone .
+
+
+Region 
+-> A region is a geographical area. Each region consists of 2 more availabilityzone.
+-> A region is a collection of data centres which are completely isolated from other regions .
+-> A region consist of more than two availability zones connected to each other through links.
+
+Edge Locations
+-> Edge locations are the end points for was used for caching content .
+-> Edge locations consist of cloud front , amazon’s content delivery network(CDN).
+->Edge locations are more than regions. Currently , there are over 150 edge locations.
+-> It is used for caching the content.
+->It is mostly located in the major cities to distribute the content end users with reduced latency.
+->for eg, some users accesses your website from Singapore. Then this request would be redirected to the edge location closest to Singapore where cached data can be read.
+
+
+Regional Edge cache 
+->AWS announced a new type of edge location in November 2016, known as a regional edge cache.
+-> Regional edge cache lies between cloud front origin server and the edge locations.
+-> A regional edge cache has large cache than an individual edge location.
+-> data here is retained even if removed from edge locations .
+->if users requests the data is no longer available at the edge location. Therefore, the edge location retrieves the cached data from the regional edge cache instead of Origin server that have high latency.
