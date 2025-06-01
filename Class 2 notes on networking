@@ -1,0 +1,57 @@
+-> Git hub is the version control system , it handles the whole history of the code that was merged 
+-> code is a centralised repository 
+->code -> guthub> Test> quant if code (Sonar Qube) >  Build
+-> consumer is connected to prod env 
+-> 	Ansible is a configuration management tool . 
+-> communication happens b.w two people through a medium 
+-> Transistors are used for data communication . They are like switches .
+-> medium - is wired/wireless 
+-> valid IP 
+-> both the system must have same network
+-> private IP -private IP
+-> Public IP -Public IP
+
+
+K
+LAN NETWORK
+-> LAN consists of subnets 
+-> subnets with internet connection are public subnets 
+-> subnets with no internet connection are called private subnets 
+-> by default was gives vic as public subnet 
+-> VPS - Virtual Private cloud 
+-> in a subnet each VM has unique IP address 
+-> IP -> ANY NO OF 32 BIT SIZE ISA VALID ip address 
+-> convert ip to binary 
+->  net mask to identify if 2 systems are in same network or not 
+ -. each ip address has its net mask , now if I want to validate if 2 IP addresses belong to the same network , then first take and AND operation of each IP address with their net mask then see if the result for both the operations is same then they are in same network (Convert the IP address into binary first )
+->  255.255.255.0 -> /24 in CIDR  notation 
+—> All the bits that are one represent the netowrk name and those not1 represent host name
+-> each octet in IP address can have 255 as the highest no .
+-> to communicate from 2 different net mask we need a public ip address , which has some cost 
+-> To communicate between two ip addresses we need a packet , the packet is carried undertone surveillance of a router .
+-> The packet consists of src, data and destination .
+-> Router has public address and private as well 
+-> 2 packets are created one with data and one with response 
+-> the router is connecting one ip to other ip, so it is called NAT. 
+-> NAT is of 2 types - SNAT  and GNAT 
+-> Data is always encrypted 
+-> Internet is connection of multiple routers .
+-> router sends public address to the destination. 
+-> if multiple devices connected to same router , so the IP address for all the devices will be same . aS it is the public IP address.
+-> switch works on the MAC address I.e. the private netmask.
+-> VPN 
+			-> 
+￼
+ -> TO KNOW the IP address of an instance use ifconfig command  
+-> to write content like notepad in Linux, it has its own text editor . For that use command - vi index.html 
+-> to save the edited file click on esc keep and then enter  :w . Then to save the file click on ctrl+s and then to close click on q .
+Refer to class2 at  -11:25 for commands 
+-> After saving the file  enter the below commands   
+		-> cd /var/www/html 
+		-> cat index.html 
+		-> systemctl start httpd
+		-> get logs  cd /var/log/
+					ls
+					pwd
+
+					cat
